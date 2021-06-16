@@ -22,6 +22,9 @@
 		33FB29372675E41A00C942FE /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FB29362675E41A00C942FE /* GFBodyLabel.swift */; };
 		33FB29392675E59E00C942FE /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FB29382675E59E00C942FE /* GFAlertViewController.swift */; };
 		33FB293B2675EAEC00C942FE /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FB293A2675EAEC00C942FE /* UIViewController+.swift */; };
+		33FB29422676389500C942FE /* Followers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FB29412676389500C942FE /* Followers.swift */; };
+		33FB29442676393B00C942FE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FB29432676393B00C942FE /* User.swift */; };
+		33FB2947267A579C00C942FE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FB2946267A579C00C942FE /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		33FB29362675E41A00C942FE /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		33FB29382675E59E00C942FE /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
 		33FB293A2675EAEC00C942FE /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		33FB29412676389500C942FE /* Followers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Followers.swift; sourceTree = "<group>"; };
+		33FB29432676393B00C942FE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		33FB2946267A579C00C942FE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,8 @@
 		33FB28F92674A1C600C942FE /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				33FB2945267A578400C942FE /* Managers */,
+				33FB29402676388200C942FE /* Model */,
 				33FB293C2675ED1200C942FE /* Screens */,
 				33FB293D2675ED1C00C942FE /* CustomView */,
 				33FB293E2675ED5D00C942FE /* Extension */,
@@ -179,6 +187,23 @@
 				33FB29052674A1C900C942FE /* LaunchScreen.storyboard */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		33FB29402676388200C942FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33FB29412676389500C942FE /* Followers.swift */,
+				33FB29432676393B00C942FE /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33FB2945267A578400C942FE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				33FB2946267A579C00C942FE /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,14 +335,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33FB29442676393B00C942FE /* User.swift in Sources */,
 				33FB29392675E59E00C942FE /* GFAlertViewController.swift in Sources */,
 				33FB29312674BB3300C942FE /* GFTextField.swift in Sources */,
 				33FB28FB2674A1C600C942FE /* AppDelegate.swift in Sources */,
+				33FB29422676389500C942FE /* Followers.swift in Sources */,
 				33FB292F2674B88A00C942FE /* GFButton.swift in Sources */,
 				33FB29332675DB4F00C942FE /* FollowerListViewController.swift in Sources */,
 				33FB29372675E41A00C942FE /* GFBodyLabel.swift in Sources */,
 				33FB29352675E24B00C942FE /* GFTitleLabel.swift in Sources */,
 				33FB292B2674B3B400C942FE /* SearchViewController.swift in Sources */,
+				33FB2947267A579C00C942FE /* NetworkManager.swift in Sources */,
 				33FB293B2675EAEC00C942FE /* UIViewController+.swift in Sources */,
 				33FB292D2674B3DB00C942FE /* FavoriteListViewController.swift in Sources */,
 				33FB28FD2674A1C600C942FE /* SceneDelegate.swift in Sources */,
