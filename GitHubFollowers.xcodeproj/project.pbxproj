@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		33038E2826A076BD0089E4D0 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33038E2726A076BD0089E4D0 /* GFEmptyStateView.swift */; };
-		33972F5C267E397A00918210 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972F5B267E397A00918210 /* ErrorMessage.swift */; };
+		33376CEE26A2D868007CAC52 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33376CED26A2D868007CAC52 /* UserInfoViewController.swift */; };
+		33376CF026A2E502007CAC52 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33376CEF26A2E502007CAC52 /* GFError.swift */; };
 		33972F5F267E443000918210 /* FollowerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972F5E267E443000918210 /* FollowerCollectionViewCell.swift */; };
 		33972F61267E44A900918210 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972F60267E44A900918210 /* GFAvatarImageView.swift */; };
 		33972F63268788D700918210 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972F62268788D600918210 /* UIHelper.swift */; };
@@ -51,7 +52,8 @@
 
 /* Begin PBXFileReference section */
 		33038E2726A076BD0089E4D0 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
-		33972F5B267E397A00918210 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		33376CED26A2D868007CAC52 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		33376CEF26A2E502007CAC52 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		33972F5E267E443000918210 /* FollowerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCollectionViewCell.swift; sourceTree = "<group>"; };
 		33972F60267E44A900918210 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		33972F62268788D600918210 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
@@ -158,8 +160,8 @@
 		33972F5A267E395D00918210 /* Utillities */ = {
 			isa = PBXGroup;
 			children = (
-				33972F5B267E397A00918210 /* ErrorMessage.swift */,
 				33972F62268788D600918210 /* UIHelper.swift */,
+				33376CEF26A2E502007CAC52 /* GFError.swift */,
 			);
 			path = Utillities;
 			sourceTree = "<group>";
@@ -229,9 +231,10 @@
 		33FB293C2675ED1200C942FE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				33FB292A2674B3B400C942FE /* SearchViewController.swift */,
 				33FB292C2674B3DB00C942FE /* FavoriteListViewController.swift */,
 				33FB29322675DB4F00C942FE /* FollowerListViewController.swift */,
+				33FB292A2674B3B400C942FE /* SearchViewController.swift */,
+				33376CED26A2D868007CAC52 /* UserInfoViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -422,8 +425,8 @@
 				33972F63268788D700918210 /* UIHelper.swift in Sources */,
 				33972F61267E44A900918210 /* GFAvatarImageView.swift in Sources */,
 				33FB292F2674B88A00C942FE /* GFButton.swift in Sources */,
+				33376CF026A2E502007CAC52 /* GFError.swift in Sources */,
 				33FB29332675DB4F00C942FE /* FollowerListViewController.swift in Sources */,
-				33972F5C267E397A00918210 /* ErrorMessage.swift in Sources */,
 				33972F5F267E443000918210 /* FollowerCollectionViewCell.swift in Sources */,
 				33FB29372675E41A00C942FE /* GFBodyLabel.swift in Sources */,
 				33FB29352675E24B00C942FE /* GFTitleLabel.swift in Sources */,
@@ -431,6 +434,7 @@
 				33038E2826A076BD0089E4D0 /* GFEmptyStateView.swift in Sources */,
 				33FB2947267A579C00C942FE /* NetworkManager.swift in Sources */,
 				33FB293B2675EAEC00C942FE /* UIViewController+.swift in Sources */,
+				33376CEE26A2D868007CAC52 /* UserInfoViewController.swift in Sources */,
 				33FB292D2674B3DB00C942FE /* FavoriteListViewController.swift in Sources */,
 				33FB28FD2674A1C600C942FE /* SceneDelegate.swift in Sources */,
 			);

@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GitHubFollowers
 //
-//  Created by Supannee Mutitanon on 19/6/2564 BE.
+//  Created by Supannee Mutitanon on 17/7/2564 BE.
 //
 
 import Foundation
