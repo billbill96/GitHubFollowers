@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 fileprivate var containerView: UIView!
 
@@ -39,6 +40,12 @@ extension UIViewController {
             activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
         activityIndicator.startAnimating()
+    }
+    
+    func presentSafariViewController(with url: URL) {
+        let safariViewController = SFSafariViewController(url: url)
+        safariViewController.preferredControlTintColor = .systemGreen
+        present(safariViewController, animated: true)
     }
     
     func dismissLoadingView() {
