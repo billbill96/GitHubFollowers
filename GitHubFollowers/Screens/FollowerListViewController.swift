@@ -44,6 +44,9 @@ class FollowerListViewController: UIViewController {
     
     func configureViewController() {
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
+        navigationItem.rightBarButtonItem = addButton
     }
     
     func getFollowers(username: String, page: Int) {
@@ -109,6 +112,10 @@ class FollowerListViewController: UIViewController {
         snapShot.appendSections([.main]) //add section
         snapShot.appendItems(followers)
         datasource.apply(snapShot, animatingDifferences: true)
+    }
+    
+    @objc func addButtonTapped() {
+        
     }
 }
 
