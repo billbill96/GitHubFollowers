@@ -25,7 +25,7 @@ class GFTextField: UITextField {
         layer.borderWidth = 2
         layer.borderColor = UIColor.systemGray4.cgColor
         
-        textColor = .label //white for dark mode, back for light mode
+        textColor = .label //white for dark mode, black for light mode
         tintColor = .label
         textAlignment = .center
         font = UIFont.preferredFont(forTextStyle: .title2)
@@ -35,6 +35,7 @@ class GFTextField: UITextField {
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
         returnKeyType = .go
+        clearButtonMode = .whileEditing
         
         placeholder = "Enter a username"
     }

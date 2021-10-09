@@ -198,9 +198,9 @@
 		33972F5A267E395D00918210 /* Utillities */ = {
 			isa = PBXGroup;
 			children = (
-				33972F62268788D600918210 /* UIHelper.swift */,
-				33376CEF26A2E502007CAC52 /* GFError.swift */,
 				33B2736826A42E5900BAF0E4 /* Constant.swift */,
+				33376CEF26A2E502007CAC52 /* GFError.swift */,
+				33972F62268788D600918210 /* UIHelper.swift */,
 			);
 			path = Utillities;
 			sourceTree = "<group>";
